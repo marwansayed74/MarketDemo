@@ -40,8 +40,6 @@ public class CustomerService {
     }
 
     public List<Customer> getCustomer() {
-
-
         return customerRepository.findAll();
     }
 
